@@ -25,4 +25,5 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: B3.Extensions.Data
+          path: B3.Extensions.Data/bin/release
           
