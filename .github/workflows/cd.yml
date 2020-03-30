@@ -27,5 +27,5 @@ jobs:
           name: B3.Extensions.Data
           path: B3.Extensions.Data
       - name: Publish Nuget Package
-        run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.nuget_api_key }} --source https://api.nuget.org/v3/index.json       
+        run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.nuget_api_key }} --source https://api.nuget.org/v3/index.json  --no-symbols true
           
