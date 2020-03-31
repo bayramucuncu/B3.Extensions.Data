@@ -6,6 +6,7 @@
     <Authors>Bayram Üçüncü</Authors>
     <Company>B3</Company>
     <Version>1.0.1</Version>
+    <Description>DbContext or Data extensions for EntityFramework</Description>
   </PropertyGroup>
 
   <ItemGroup>
