@@ -18,7 +18,7 @@ jobs:
         with:
           dotnet-version: 3.1.101
       - name: Create NuGet Package
-        run: dotnet pack -c Release -o out
+        run: dotnet pack -c Release -o nupkgs -p:Version=${{ github.event.release.tag_name }}
       - name: Archive NuGet Package
         uses: actions/upload-artifact@v1
         with:
