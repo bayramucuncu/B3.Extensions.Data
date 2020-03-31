@@ -10,9 +10,9 @@ Execute raw sql query without casting any type.
 ```csharp
 public async Task<IActionResult> GetToplamMetraj()
 {
-	var sql = "SELECT type, SUM(length) FROM ways GROUP BY type";
-	var queryResult = await _context.ExecuteQueryAsync(sql);
+   var sql = "SELECT type, SUM(length) FROM ways GROUP BY type";
+   var queryResult = await _context.ExecuteQueryAsync(sql);
             
-    return Ok(response);
+   return Ok(response);
 }
 ```
