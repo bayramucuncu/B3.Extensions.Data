@@ -5,6 +5,7 @@
     <LangVersion>latest</LangVersion>
     <Authors>Bayram Üçüncü</Authors>
     <Company>B3</Company>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
