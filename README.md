@@ -1,3 +1,5 @@
+![build code](https://github.com/bayramucuncu/B3.Extensions.Data/workflows/build%20code/badge.svg)
+![nuget push](https://github.com/bayramucuncu/B3.Extensions.Data/workflows/nuget%20push/badge.svg)
 # B3.Extensions.Data
 B3.Extensions.Data includes data extensions for Entity Framework Core
 ## DbContextExtensions
