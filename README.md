@@ -8,7 +8,7 @@ B3.Extensions.Data includes data extensions for Entity Framework Core
 
 Execute raw sql query without casting any type.
 ```csharp
-public async Task<IActionResult> GetToplamMetraj()
+public async Task<IActionResult> Get()
 {
    var sql = "SELECT type, SUM(length) FROM ways GROUP BY type";
    var queryResult = await _context.ExecuteQueryAsync(sql);
